@@ -58,3 +58,12 @@ let orders = [503, 504, 505];
 orders.forEach(order => console.log(`Order ID: ${order}`));
 // To log order IDs and logging through a template literal
 
+
+// Task 8: Tax Calculation
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+console.log(`Tax on $1500 at 7%: $${calculateTax(1500, 0.07)}`);
+// In FL tax is 7% so if I buy a bracelet for $x what will I pay in taxes which is why I used the function
+
