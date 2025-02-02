@@ -45,8 +45,16 @@ for (let key in employee) {
 
 
 // Task 6: Product Listings
+
 let products = ["Shampoo", "Conditioner", "Hair Oil"];
 for (let product of products) {
     console.log(`Product: ${product}`);
 } // Created a product listing with three products using a for...of loop to display each
+
+
+// Task 7: Order Processing
+
+let orders = [503, 504, 505];
+orders.forEach(order => console.log(`Order ID: ${order}`));
+// To log order IDs and logging through a template literal
 
