@@ -67,3 +67,12 @@ function calculateTax(amount, taxRate) {
 console.log(`Tax on $1500 at 7%: $${calculateTax(1500, 0.07)}`);
 // In FL tax is 7% so if I buy a bracelet for $x what will I pay in taxes which is why I used the function
 
+
+// Task 9: Discount Application
+
+const applyDiscount = function(price, discountPercent) {
+    return price - (price * discountPercent / 100);
+};
+console.log(`Price after 15% student discount: $${applyDiscount(100, 15)}`);
+// If I'm trying to figure out what a price is after a given student discount 
+
