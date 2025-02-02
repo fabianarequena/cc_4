@@ -35,3 +35,11 @@ do {
 } while (responses < 3);
 // Created a do...while loop from 1 to 3 in ascending order and terminated 
 
+
+// Task 5: Employee Information
+
+let employee = { name: "Alice", position: "Manager", salary: 75000 };
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+} // Created a for...in loop to display the emplyee along with their position and salary 
+
