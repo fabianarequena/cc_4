@@ -25,3 +25,13 @@ for (let stock = 10; stock > 0; stock--) {
 } // Created a decreasing for statement, 10,9,8, etc. in descending order until the intventory is out
 console.log("Stock is empty.");
 
+
+// Task 4: Customer Survey
+
+let responses = 0;
+do {
+    responses++;
+    console.log(`Collected response: ${responses}`);
+} while (responses < 3);
+// Created a do...while loop from 1 to 3 in ascending order and terminated 
+
