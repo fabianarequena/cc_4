@@ -43,3 +43,10 @@ for (let key in employee) {
     console.log(`${key}: ${employee[key]}`);
 } // Created a for...in loop to display the emplyee along with their position and salary 
 
+
+// Task 6: Product Listings
+let products = ["Shampoo", "Conditioner", "Hair Oil"];
+for (let product of products) {
+    console.log(`Product: ${product}`);
+} // Created a product listing with three products using a for...of loop to display each
+
