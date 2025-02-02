@@ -1,4 +1,4 @@
-// Task 1: Product Price Management
+// Task 1: Customer Discounts
 
 let purchaseAmount = 250
 if (purchaseAmount > 100) {
@@ -6,4 +6,3 @@ if (purchaseAmount > 100) {
     purchaseAmount -= discount;
 }
 console.log(`Final amount after discount: $${purchaseAmount}`);
-
