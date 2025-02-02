@@ -76,3 +76,11 @@ const applyDiscount = function(price, discountPercent) {
 console.log(`Price after 15% student discount: $${applyDiscount(100, 15)}`);
 // If I'm trying to figure out what a price is after a given student discount 
 
+
+// Task 10: Loyalty Points
+
+function calculatePoints(purchaseAmount) {
+    return Math.floor(purchaseAmount / 10);
+}
+console.log(`Loyalty Points Earned: ${calculatePoints(1500)}`);
+// Created funciton to calculate loyalty points by taking purchase ammount and dividing it by 10 since it is 1 point for ever $10 spent
